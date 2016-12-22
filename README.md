@@ -8,7 +8,7 @@ links to stories from [Clubhouse](https://app.clubhouse.io) to
 
 Clubhouse currently only supports [one-way linking](https://help.clubhouse.io/hc/en-us/articles/207540323-Using-The-Clubhouse-GitHub-Integration) from Clubhouse to
 GitHub. As part of our GitHub workflow, we need to link to stories in
-Clubhouse so that reviewer will have more context our the pull request.
+Clubhouse so that reviewer will have more context about the pull request.
 
 This danger plugin does exactly that :)
 
