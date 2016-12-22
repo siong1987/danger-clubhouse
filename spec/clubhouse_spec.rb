@@ -40,7 +40,7 @@ module Danger
               subject
 
               expect(status_report[:markdowns].map(&:message)).to eq [
-                "### Clubhouse stories\n\n* [https://app.clubhouse.io/organization/stories/345](https://app.clubhouse.io/organization/stories/345) \n"
+                "### Clubhouse Stories\n\n* [https://app.clubhouse.io/organization/stories/345](https://app.clubhouse.io/organization/stories/345) \n"
               ]
             end
           end
@@ -64,7 +64,7 @@ module Danger
               subject
 
               expect(status_report[:markdowns].map(&:message)).to eq [
-                "### Clubhouse stories\n\n* [https://app.clubhouse.io/organization/stories/345](https://app.clubhouse.io/organization/stories/345) \n"
+                "### Clubhouse Stories\n\n* [https://app.clubhouse.io/organization/stories/345](https://app.clubhouse.io/organization/stories/345) \n"
               ]
             end
           end

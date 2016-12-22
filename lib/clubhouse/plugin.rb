@@ -66,7 +66,7 @@ module Danger
     private
 
     def post!(story_ids)
-      message = "### Clubhouse stories\n\n"
+      message = "### Clubhouse Stories\n\n"
       story_ids.each do |id|
         message << "* [https://app.clubhouse.io/#{organization}/stories/#{id}](https://app.clubhouse.io/#{organization}/stories/#{id}) \n"
       end
