@@ -49,7 +49,6 @@ Find stories in the format of chXXX from commits and branch name and
 ## Contact
 
 You can find me at [siong.com](https://siong.com).
-link to them.
 
 ## Copyright
 
