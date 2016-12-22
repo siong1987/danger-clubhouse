@@ -68,7 +68,7 @@ module Danger
     def post!(story_ids)
       message = "### Clubhouse stories\n\n"
       story_ids.each do |id|
-        message << "[https://app.clubhouse.io/#{organization}/stories/#{id}](https://app.clubhouse.io/#{organization}/stories/#{id}) \n"
+        message << "* [https://app.clubhouse.io/#{organization}/stories/#{id}](https://app.clubhouse.io/#{organization}/stories/#{id}) \n"
       end
       markdown message
     end
