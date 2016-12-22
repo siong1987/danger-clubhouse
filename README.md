@@ -1,7 +1,20 @@
 # danger-clubhouse
 
 A pull request plugin to [danger.systems](http://danger.systems) that
-links to stories from [Clubhouse](https://app.clubhouse.io).
+links to stories from [Clubhouse](https://app.clubhouse.io) to
+[GitHub](https://github.com/).
+
+## Why?
+
+Clubhouse currently only supports [one-way linking](https://help.clubhouse.io/hc/en-us/articles/207540323-Using-The-Clubhouse-GitHub-Integration) from Clubhouse to
+GitHub. As part of our GitHub workflow, we need to link to stories in
+Clubhouse so that reviewer will have more context our the pull request.
+
+This danger plugin does exactly that :)
+
+## Example
+
+![Screen Shot](/pictures/screenshot.png?raw=true)
 
 ## Installation
 
