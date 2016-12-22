@@ -40,9 +40,16 @@ Set the orgazination name for Clubhouse.
 ### clubhouse.link_stories!
 
 Find stories in the format of chXXX from commits and branch name and
-link to them.
 
-![](images/have_you_updated_changelog.png)
+## Thanks
+
+* Plugin example by [dblock](https://github.com/dblock) from the [danger
+  changelog plugin](https://github.com/dblock/danger-changelog).
+
+## Contact
+
+You can find me at [siong.com](https://siong.com).
+link to them.
 
 ## Copyright
 
