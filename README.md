@@ -12,6 +12,13 @@ Clubhouse so that reviewer will have more context about the pull request.
 
 This danger plugin does exactly that :)
 
+## How?
+
+The plugin will parse branch name and commit messages and find the pattern
+of `chXXXX` where `XXXX` is the story id to Clubhouse. Then, it will
+link to all the stories as a separated message in the format of
+`https://app.clubhouse.io/#{organization}/story/#{id}` for each story.
+
 ## Example
 
 ![Screen Shot](/pictures/screenshot.png?raw=true)
