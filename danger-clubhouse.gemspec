@@ -20,13 +20,13 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'danger-plugin-api', '~> 1.0'
 
-  spec.add_development_dependency 'bundler', '~> 1.3'
-  spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'bundler', '~> 2.0'
+  spec.add_development_dependency 'rake', '~> 12.3'
   spec.add_development_dependency 'rspec', '~> 3.4'
   spec.add_development_dependency 'rubocop', '~> 0.41'
   spec.add_development_dependency 'yard', '~> 0.8'
   spec.add_development_dependency 'guard', '~> 2.14'
   spec.add_development_dependency 'guard-rspec', '~> 4.7'
-  spec.add_development_dependency 'listen', '3.0.7'
+  spec.add_development_dependency 'listen', '~> 3.1'
   spec.add_development_dependency 'pry', '~> 0.10'
 end
