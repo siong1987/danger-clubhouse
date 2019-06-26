@@ -14,10 +14,16 @@ This danger plugin does exactly that :)
 
 ## How?
 
-The plugin will parse branch name and commit messages and find the pattern
-of `chXXXX` where `XXXX` is the story id to Clubhouse. Then, it will
-link to all the stories as a separated message in the format of
-`https://app.clubhouse.io/#{organization}/story/#{id}` for each story.
+This plugin will search for the pattern `chXXXX`, where `XXXX` is the story id 
+to Clubhouse, and links all story ids as a separated message in the format of 
+`https://app.clubhouse.io/#{organization}/story/#{id}`.
+
+It searches for the patterns in:
+
+- branch name
+- commit messages
+- pull request comments
+- pull request description
 
 ## Example
 
@@ -37,9 +43,17 @@ gem 'danger-clubhouse'
 
 Set the orgazination name for Clubhouse.
 
+```ruby
+clubhouse.organization = 'organization'
+```
+
 ### clubhouse.link_stories!
 
-Find stories in the format of chXXX from commits and branch name and
+Find the story ids and add the story links using the _Danger_ `markdown` methods.
+
+```ruby
+clubhouse.link_stories!
+```
 
 ## Thanks
 
